@@ -1,6 +1,6 @@
 ﻿#DSENVOLVEDORES: RAFAEL ANJOS & NATAM.
 #ANALISTAS: TIAGO SERAFIM, MIGUEL E MARIA LUIZA.
-#projeto interdisciplinar dirigido por Wagner lops águiar(vulgo "Ninja")
+#Projeto Interdisciplinar de Lógica Computacional dirigido por Wagner Lopes Aguiar
 #PYTHON_3
 print('\033[1;33m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\033[m')
 from time import sleep
@@ -20,13 +20,14 @@ if manual.upper()=='S':
 	print("""\033[1;33m<<<MANUAL DE INSTRUÇÕES>>>
 Caso você digite 1, você será direcionado para o programa de cálculo de gasto de água por mês, no qual você irá digitar quantos litros de água você gasta para lavar um carro e em seguida quantos carros você lava em média por dia.
 ------------------------------------------
-Caso você digite 2, você será direcionado para o programa de pacote de serviços do lava-rápido, no qual haverá as opções bronze, prata e ouro, todas com suas especificações e lreços mostradas na tabela. Você terá de selecionar digitando o nome do pacote, ex: ouro.
+Caso você digite 2, você será direcionado para o programa de pacote de serviços do lava-rápido, no qual haverá as opções bronze, prata e ouro, todas com suas especificações e preços mostradas na tabela. Você terá de selecionar digitando o nome do pacote, exemplo ouro.
 -----------------------------------------
-Caso você digite 3, você será direcionado para o controle de fila, no qual aparrcerá se você quer continuar, caso diga sim, o programa pedirá para você pressionar enter para tirar a sua senha, e em seguida perguntará se você quer continuar, e assim sucessivamente.
+Caso você digite 3, voce será direcionado para o controle de fila, noa qual aparecerá se deseja continuar .Caso diga sim, o programa solicitará para pressionar ENTER para gerar a senha.Em sequência, perguntará se deseja contiunar e assim sucessivamente. 
 ------------------------------------------
 Caso você digite 4, você será direcionado para o programa de entrega em domicílio, no qual você informará quantas vezes deseja ultilizar o programa e em seguida você preencherá as informações requeridas que por sua vez irão aparecer todas juntas na tela.
 -------------------------------------------
-Caso você digite 5, você será direcionado para o programa de compra de produtos e brindes do lava-rápido,no qual terá alguns produtos e brindes listados por números, e você poderá escolher  um produto de cada vez apenas digitando o número do produto que se encontrará antes do nome do dele, e caso queira escolher mais basta dizer sim após escolher um produto.
+Caso você digite 5, será direcionado para o programa de compra de brindes e produtos, no qual terá alguns itens listados por números e poderá escolher um de cada vez, apenas digitando o numero do produto ou item que se encontra antes do nome . E quando escolher, basta dizer sim.
+
 -----------------------------------------
 Caso queira sair do programa digite 0 e em seguida pressione enter.
 \033[m""")
@@ -162,31 +163,14 @@ programa? """))
 				print('')
 				print('\033[1;33mObrigado por ultilizar nosso programa!\033[m')
 				print("""
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░▄▄▄▄▄▄▄░░░░░░░░░
-░░░░░░░░░▄▀▀▀░░░░░░░▀▄░░░░░░░
-░░░░░░░▄▀░░░░░░░░░░░░▀▄░░░░░░
-░░░░░░▄▀░░░░░░░░░░▄▀▀▄▀▄░░░░░
-░░░░▄▀░░░░░░░░░░▄▀░░██▄▀▄░░░░
-░░░▄▀░░▄▀▀▀▄░░░░█░░░▀▀░█▀▄░░░
-░░░█░░█▄▄░░░█░░░▀▄░░░░░▐░█░░░
-░░▐▌░░█▀▀░░▄▀░░░░░▀▄▄▄▄▀░░█░░
-░░▐▌░░█░░░▄▀░░░░░░░░░░░░░░█░░
-░░▐▌░░░▀▀▀░░░░░░░░░░░░░░░░▐▌░
-░░▐▌░░░░░░░░░░░░░░░▄░░░░░░▐▌░
-░░▐▌░░░░░░░░░▄░░░░░█░░░░░░▐▌░
-░░░█░░░░░░░░░▀█▄░░▄█░░░░░░▐▌░
-░░░▐▌░░░░░░░░░░▀▀▀▀░░░░░░░▐▌░
-░░░░█░░░░░░░░░░░░░░░░░░░░░█░░
-░░░░▐▌▀▄░░░░░░░░░░░░░░░░░▐▌░░
-░░░░░█░░▀░░░░░░░░░░░░░░░░▀░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+
 """)
 #é possivel adicionar artes com textos ultilizando 3 aspas duplas
 				break
 				#break para o código
 	except:
-		#esse bloco fecha a excessão
+		#esse bloco fecha a exceção
 				print(' ')
 				print('\033[1;31mOpção inválida.\033[m')
 				print('<<>>'*14) 
